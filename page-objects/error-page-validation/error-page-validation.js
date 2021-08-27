@@ -15,7 +15,7 @@ class TestErrorPage {
         const locator = await this.page.locator('//h1');
         await expect(locator).toHaveText('404 Error: File not found :-(');
       } catch (error) {
-        console.log('Error in clickFormButton function ', error);
+        console.log('Error in validateErrorPageResponse function ', error);
       }
     }
 }
