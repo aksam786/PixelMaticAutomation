@@ -34,7 +34,7 @@ class TestFormPage {
           const FormGoButton = await this.page.locator(locators.FormPageLocators.FormGoButton)
           await expect(FormGoButton).toBeVisible()
         } catch (error) {
-          console.log('Error in clickFormButton function ', error);
+          console.log('Error in validateFormOnFormPage function ', error);
         }
     }
     async validateHelloPage() {
@@ -47,7 +47,7 @@ class TestFormPage {
           const FormText = await this.page.locator(locators.FormPageLocators.FormResult)
           await expect(FormText).toHaveText('Hello John!')
         } catch (error) {
-          console.log('Error in clickFormButton function ', error);
+          console.log('Error in validateHelloPage function ', error);
         }
     }
 }
