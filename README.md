@@ -17,7 +17,7 @@ Open the repository in Visual Studio Code
 
 # Run the code
 In order to execute the tests, use this command in terminal:
-    npx playwright test
+        npx playwright test
   
  
  # Tool used 
