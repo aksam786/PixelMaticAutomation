@@ -20,7 +20,7 @@ class TestLogoPage {
           const LogoOnFormPage = await this.page.locator(locators.CompanyLogoLocators.Logo)
           await expect(LogoOnFormPage).toBeVisible()
         } catch (error) {
-          console.log('Error in clickFormButton function ', error);
+          console.log('Error in validateLogoOnEachPage function ', error);
         }
     }
 }
