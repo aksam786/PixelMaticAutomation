@@ -15,7 +15,7 @@ class UITestingButtonPage {
         const locator = await this.page.locator('//h1');
         await expect(locator).toHaveText('Welcome to Pixelmatic QA department');
       } catch (error) {
-        console.log('Error in clickFormButton function ', error);
+        console.log('Error in validateUITestingButton function ', error);
       }
     }
 }
