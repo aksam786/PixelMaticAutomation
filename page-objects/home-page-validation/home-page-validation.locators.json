@@ -1,0 +1,5 @@
+{
+    "HomePageLocators":{
+        "HomeButton": "#home"
+    }
+}

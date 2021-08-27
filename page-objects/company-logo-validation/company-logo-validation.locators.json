@@ -1,0 +1,9 @@
+{
+    "CompanyLogoLocators":{
+        "UITestingPage": "#site",
+        "HomePage": "#home",
+        "FormPage": "#form",
+        "Logo": "#if_logo"
+
+    }
+}

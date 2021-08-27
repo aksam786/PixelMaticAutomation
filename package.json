@@ -1,0 +1,15 @@
+{
+  "name": "pixelmatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./tests/pixel-matic.spec.js",
+  "scripts": {
+    "test": "npx folio headful=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.14.1"
+  }
+}

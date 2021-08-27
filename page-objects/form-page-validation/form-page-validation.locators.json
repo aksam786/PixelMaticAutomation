@@ -1,0 +1,8 @@
+{
+    "FormPageLocators":{
+        "FormButton": "#form",
+        "FormId": "#hello-input",
+        "FormGoButton": "#hello-submit",
+        "FormResult": "#hello-text"
+    }
+}
