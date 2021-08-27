@@ -15,7 +15,7 @@ For that, you can install http-server. In your terminal execute:
 
 Open the repository in Visual Studio Code
 
-# Start the local server from the repo
+# Run the test in visual studio code
     npx playwright test
     
  # Tool used 
